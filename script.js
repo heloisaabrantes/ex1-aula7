@@ -14,7 +14,13 @@ class jogador {
             Id: ${this.id}
             Nome: ${this.nome}
             Pontos: ${this.pontos}
-            Status: ${this.status ? Ativo : Inativo}`)
+            Status: ${this.status ? Ativo : Inativo}
+            -------------------------------`)
             
     }
 }
+
+let jogador1 = new jogador ( 1, "CarlinhosCavalos", 578);
+
+    console.table(jogador1);
+    
